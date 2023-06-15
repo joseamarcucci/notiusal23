@@ -19,8 +19,7 @@ Pillow
 pyftpdlib
 pybase64
 argparse
-streamlit_folium
-streamlit_pages
+
 extra_streamlit_components
 pycountry
 
