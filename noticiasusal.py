@@ -6,7 +6,7 @@ layout="wide",
 initial_sidebar_state="expanded",)
 import argparse  
 import smtplib
-from streamlit_pages.streamlit_pages import MultiPage
+
 
 
 
@@ -27,7 +27,7 @@ import IPython
 
 import os
 import re
-from streamlit_folium import folium_static
+
 import folium
 import pandas as pd
 import socket
