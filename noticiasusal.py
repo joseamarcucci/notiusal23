@@ -23,12 +23,12 @@ import gspread
 import pandas as pd
 
 import os 
-import IPython
+
 
 import os
 import re
 
-import folium
+
 import pandas as pd
 import socket
 import socks
