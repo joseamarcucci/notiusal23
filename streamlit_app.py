@@ -124,7 +124,7 @@ x2 = response2.json()
 
 #vivod=df.iat[1,1]
 #vivom=df.iat[0,1]
-col1, col2,col3,col4,col5 = st.beta_columns([1,1,1,1,1])
+col1, col2,col3,col4,col5 = st.columns([1,1,1,1,1])
 #vivod=df.iat[1,1]
 #vivom=df.iat[0,1]
 col3.image("https://noticias.usal.edu.ar/sites/default/files/inline-images/logo1_0.png")
@@ -243,7 +243,7 @@ def total():
   date = datetime.date(2019, 3, 15)
   date2 = date.today()
   
-  col1, col2,col3,col4,col5 = st.beta_columns([1,1,1,1,1])
+  col1, col2,col3,col4,col5 = st.columns([1,1,1,1,1])
   #import pycountry
 
   #countries = pd.DataFrame()
@@ -660,7 +660,7 @@ def total():
                           
                     }).execute()  
   def print_responsebar(response):
-      #col1, col2 = st.beta_columns([1,1])  
+      #col1, col2 = st.columns([1,1])  
       list = []
       # get report data
       for report in response.get('reports', []):
@@ -1017,7 +1017,7 @@ def total():
       
 
     response = get_reportcity555(analytics) #get the response from the API
-    col1, col2 = st.beta_columns([1,1]) 
+    col1, col2 = st.columns([1,1]) 
 
     df = ga_response_dataframe(response)
     
