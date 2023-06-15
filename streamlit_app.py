@@ -4415,11 +4415,7 @@ table th:nth-child(1) {
    
 
 
-# Add pages
 
-app.add_page("🌎 Totales x país", total)
-app.add_page("📰 Por Número", numero)
-app.add_page("🗞️ Suplementos",suple)
-app.add_page("🏆 Ranking",ua)
-app.add_page("🔍 Búsqueda",busca)
+
+
 app.run()
