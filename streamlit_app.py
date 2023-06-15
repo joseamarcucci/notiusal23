@@ -4414,7 +4414,7 @@ table th:nth-child(1) {
                           print_responsed(response) #print the response from the API    
    
 
-app = MultiPage()
+
 # Add pages
 
 app.add_page("🌎 Totales x país", total)
